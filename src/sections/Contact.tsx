@@ -7,16 +7,16 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 
 const socialLinks = [
-  { icon: Instagram, href: 'https://www.instagram.com/denn._12?igsh=MWcxOG0yY2Z4ZmFpZQ==', label: 'Instagram', color: 'from-purple-500 to-pink-500' },
+  { icon: Instagram, href: 'https://instagram.com', label: 'Instagram', color: 'from-purple-500 to-pink-500' },
   { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn', color: 'from-blue-500 to-cyan-500' },
-  { icon: Github, href: 'https://github.com/paltnez', label: 'GitHub', color: 'from-slate-600 to-slate-800' },
-  { icon: Mail, href: 'mailto:risqi91@gmail.com', label: 'Email', color: 'from-red-500 to-orange-500' },
+  { icon: Github, href: 'https://github.com', label: 'GitHub', color: 'from-slate-600 to-slate-800' },
+  { icon: Mail, href: 'mailto:rizka@example.com', label: 'Email', color: 'from-red-500 to-orange-500' },
 ];
 
 const contactInfo = [
   { icon: MapPin, label: 'Lokasi', value: 'Jakarta, Indonesia' },
-  { icon: Phone, label: 'Telepon', value: '+62 857-1746-1863' },
-  { icon: Mail, label: 'Email', value: 'risqid91@gmail.com' },
+  { icon: Phone, label: 'Telepon', value: '+62 812 3456 7890' },
+  { icon: Mail, label: 'Email', value: 'rizka@example.com' },
 ];
 
 export default function Contact() {

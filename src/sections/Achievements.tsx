@@ -5,14 +5,47 @@ import { Trophy, Award, Users, Code2, Calendar, MapPin } from 'lucide-react';
 const achievements = [
   {
     id: 1,
+    title: 'Juara 2 Lomba Web Design',
+    organization: 'Disdik Provinsi',
+    year: '2023',
+    level: 'Tingkat Provinsi',
+    description: 'Meraih juara 2 dalam kompetisi desain web untuk siswa SMA se-provinsi dengan tema "Digitalisasi Pendidikan".',
+    image: '/achievement-1.jpg',
+    icon: Trophy,
+    color: 'from-yellow-500 to-orange-500',
+  },
+  {
+    id: 2,
     title: 'Sertifikat Kompetensi',
-    organization: 'ARD ASEAN',
-    year: '2025',
-    level: 'Tingkat Internasional',
-    description: 'Menjadi Peserta lomba dalam kompetisi Robotik untuk siswa SMA se-Jakarta Selatan.',
+    organization: 'BNSP',
+    year: '2023',
+    level: 'Nasional',
+    description: 'Mendapatkan sertifikasi Junior Web Developer dari Badan Nasional Sertifikasi Profesi.',
     image: '/achievement-2.jpg',
     icon: Award,
-    color: 'from-yellow-500 to-orange-500',
+    color: 'from-blue-500 to-cyan-500',
+  },
+  {
+    id: 3,
+    title: 'Ketua OSIS',
+    organization: 'SMA Negeri 1',
+    year: '2023/2024',
+    level: 'Sekolah',
+    description: 'Terpilih sebagai Ketua OSIS periode 2023/2024, memimpin berbagai kegiatan siswa.',
+    image: '/achievement-3.jpg',
+    icon: Users,
+    color: 'from-purple-500 to-pink-500',
+  },
+  {
+    id: 4,
+    title: 'Finalis Hackathon',
+    organization: 'Tech Competition',
+    year: '2023',
+    level: 'Nasional',
+    description: 'Masuk sebagai finalis dalam kompetisi hackathon teknologi dengan proyek aplikasi edukasi.',
+    image: '/achievement-4.jpg',
+    icon: Code2,
+    color: 'from-green-500 to-teal-500',
   },
 ];
 
@@ -159,7 +192,7 @@ export default function Achievements() {
         >
           {[
             { value: '10+', label: 'Proyek Selesai' },
-            { value: '1', label: 'Sertifikat' },
+            { value: '5+', label: 'Sertifikat' },
             { value: '3+', label: 'Tahun Pengalaman' },
             { value: '100%', label: 'Komitmen' },
           ].map((stat, index) => (
